@@ -33,9 +33,8 @@ public class CrowdTest {
 
     @Test
     public void testInsertAdmin() {
-//        Admin admin = new Admin(null, "test", "Aa123456", "test", "test@qq.com", null);
-//        adminService.saveAdmin(admin);
-        System.out.println(CommonUtils.md5("123123"));
+        Admin admin = new Admin(null, "test", "Aa123456", "test", "test@qq.com", null);
+        adminService.saveAdmin(admin);
     }
 
     @Test
